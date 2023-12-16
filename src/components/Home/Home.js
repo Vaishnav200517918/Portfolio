@@ -3,7 +3,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="md:home md:mt-40 mt-40  bg-white relative -z-30 overflow-hidden  ">
+    <div className="md:home md:mt-40 mt-44 bg-white relative -z-30 overflow-hidden  ">
       <div className="md:text-[9vw] text-[13vw] font-normal leading-[1] relative">
         {/* <div className="bg-white w-[210%] h-[3.4vh] -rotate-45 -translate-x-[30vw] translate-y-20  mix-blend-difference  z-[-20]  "></div> */}
         VAISHNAV SAJEEV
