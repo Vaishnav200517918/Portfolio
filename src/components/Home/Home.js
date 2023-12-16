@@ -4,12 +4,12 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="md:home md:mt-40 mt-40  bg-white relative -z-30 overflow-hidden  ">
-      <div className="md:text-[9vw] text-[10vw] font-normal leading-[1] relative">
+      <div className="md:text-[9vw] text-[13vw] font-normal leading-[1] relative">
         {/* <div className="bg-white w-[210%] h-[3.4vh] -rotate-45 -translate-x-[30vw] translate-y-20  mix-blend-difference  z-[-20]  "></div> */}
         VAISHNAV SAJEEV
       </div>
       <div className="flex items-center gap-[15vw] justify-evenly">
-        <p className="md:text-[9vw] text-[10vw] font-normal leading-[1] md:translate-x-[50%] translate-x-[60%]">
+        <p className="md:text-[9vw] text-[13vw] font-normal leading-[1] md:translate-x-[50%] translate-x-[40%]">
           ASPIRING
         </p>
         <p className="text-[1.8vw] lg:text-xl md:lg   md:w-64 w-1/3">
@@ -18,7 +18,7 @@ const Home = () => {
           Experiences."
         </p>
       </div>
-      <div className="md:text-[9vw] text-[10vw] font-normal leading-[1]">
+      <div className="md:text-[9vw] text-[13vw] font-normal leading-[1]">
         WEB DEVELOPER
       </div>
       <div className="md:text-xl mt-5  ">
