@@ -4,21 +4,21 @@ import MyImage from "../assets/MyImage.jpg";
 const About = () => {
   return (
     <div className="bg-black w-full h-[546px]  relative  mb-96 ">
-      <div className=" bg-white absolute top-[165px] left-16 right-16 grid md:grid-cols-12 grid-cols-1 customBoxShadow  ">
-        <div className=" md:col-span-5 p-11 object-cover h-[540px]">
+      <div className=" bg-white absolute top-[165px] md:left-16 md:right-16 left-6 right-6 grid md:grid-cols-12 grid-cols-1 customBoxShadow  ">
+        <div className=" md:col-span-5 md:p-11 p-1 object-cover md:h-[540px] 300px">
           <img
-            className="object-cover object-left w-full h-full  "
+            className="object-cover object-left w-full h-full   "
             src={MyImage}
             alt=""
           />
         </div>
-        <div className="md:col-span-7 p-11   text-left flex flex-col justify-center gap-9">
+        <div className="md:col-span-7 md:p-11 p-6  text-left flex flex-col justify-center gap-9">
           <h2 className="text-4xl">
             Hello
             <br />
             I'm Vaishnav
           </h2>
-          <p className="text-xl leading-10 text-gray-800">
+          <p className="md:text-xl md:leading-10 text-gray-800 ">
             I'm an aspiring web developer passionate about creating interactive
             and user-friendly websites. I'm dedicated to continuous learning in
             front-end and back-end technologies like HTML, CSS, JavaScript,

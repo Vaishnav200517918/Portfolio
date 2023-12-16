@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className=" w-full fixed top-0 left-0 z-10 ">
-      <div className="md:flex items-center justify-between bg-white py-4 md:pl-0 md:pr-10 px-7 lg:pl-10 lg:pr-16">
+      <div className="md:flex items-center justify-between bg-white py-4 pl-0 md:pr-10 px-7 lg:pl-10 lg:pr-16">
         <div className="logo  min-w-fit">
           <img
             className="w-64 logo-img h-8 object-cover"
