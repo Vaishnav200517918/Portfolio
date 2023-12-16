@@ -59,7 +59,7 @@ const Navbar = () => {
         <ul
           className={`md:flex md:items-center bg-white absolute md:static left-0 right-0 transition-all duration-500 md:z-auto z-[-1] md:pb-0 pb-8  shadow-xl md:shadow-none   ${
             menuOpen
-              ? "top-20 opacity-100"
+              ? "top-15 opacity-100"
               : "top-[-500px] md:opacity-100 opacity-0"
           } `}
         >
