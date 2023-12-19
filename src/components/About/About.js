@@ -3,9 +3,9 @@ import "./About.css";
 import MyImage from "../assets/MyImage.jpg";
 const About = () => {
   return (
-    <div className="bg-black w-full h-[546px]  relative  mb-96 ">
+    <div className="bg-black w-full h-[546px]  relative  md:mb-96 mb-[130vw]">
       <div className=" bg-white absolute md:top-[165px] top-[80px] md:left-16 md:right-16 left-4 right-4 grid md:grid-cols-12 grid-cols-1 customBoxShadow  ">
-        <div className=" md:col-span-5 md:p-11 p-1 object-cover md:h-[540px] 300px">
+        <div className=" md:col-span-5 md:p-11 p-1 object-cover md:h-[540px] ">
           <img
             className="object-cover object-left w-full h-full   "
             src={MyImage}
