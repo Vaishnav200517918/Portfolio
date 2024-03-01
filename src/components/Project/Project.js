@@ -71,7 +71,7 @@ const Project = () => {
             <SwiperSlide>
               <ProjectItem
                 source={Portfolio}
-                link="https://vaishnav-l1qi.onrender.com"
+                link="https://vaishnav200517918.github.io/Portfolio/"
                 title="Portfolio Website"
                 description="My Personal Portfolio website is made using ReactJs and Tailwind CSS"
               />
