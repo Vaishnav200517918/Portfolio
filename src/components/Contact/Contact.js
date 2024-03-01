@@ -47,28 +47,28 @@ const Contact = () => {
             <div className="flex flex-col items-center md:items-start">
               <p className="text-2xl mb-2">FOLLOW ME</p>
               <div className="flex gap-4 ">
-                <a href="/">
+                <a href="https://www.instagram.com/vaishnav_s.v?igsh=aWoyaDlrMDM4M2ww">
                   <img
                     className="w-8 h-8 object-cover"
                     src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"
                     alt="Instagram"
                   />
                 </a>
-                <a href="/">
+                <a href="https://www.facebook.com/profile.php?id=100010797284918&mibextid=ZbWKwL">
                   <img
                     className="w-8 h-8 object-cover"
                     src="https://cdn-icons-png.flaticon.com/512/2175/2175193.png"
                     alt="Facebook"
                   />
                 </a>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/vaishnav-sajeev-9917b72a3">
                   <img
                     className="w-8 h-8 object-cover"
                     src="https://cdn-icons-png.flaticon.com/512/61/61109.png"
                     alt="Linkedin"
                   />
                 </a>
-                <a href="/">
+                <a href="https://github.com/Vaishnav200517918">
                   <img
                     className="w-8 h-8 object-cover"
                     src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
