@@ -4,7 +4,7 @@ import "../index.css";
 
 const Navbar = () => {
   let navLinks = [
-    { name: "HOME", link: "/" },
+    { name: "HOME", link: "/Portfolio/" },
     { name: "ABOUT", link: "#AboutSection" },
     { name: "PORTFOLIO", link: "#ProjectSection" },
     { name: "CONTACT", link: "#ContactSection" },
