@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c2038ddc.css",
+    "main.js": "/Portfolio/static/js/main.fe2106a3.js",
+    "static/js/787.04b02cee.chunk.js": "/Portfolio/static/js/787.04b02cee.chunk.js",
+    "static/media/MyImage.jpg": "/Portfolio/static/media/MyImage.eeb2b13832717a69f605.jpg",
+    "static/media/DMAG.jpg": "/Portfolio/static/media/DMAG.6040c508ebc276002bb5.jpg",
+    "static/media/WatchDemo.jpg": "/Portfolio/static/media/WatchDemo.e92b0c4692b2eff57979.jpg",
+    "static/media/WardrobeManager.jpg": "/Portfolio/static/media/WardrobeManager.ee2840cefca3333e4f8b.jpg",
+    "static/media/Portfolio.jpg": "/Portfolio/static/media/Portfolio.54e1642d6f067a7de957.jpg",
+    "static/media/Logo.png": "/Portfolio/static/media/Logo.967624d2992d25f8680f.png",
+    "static/media/Github-icon.png": "/Portfolio/static/media/Github-icon.9e094d235b4caa7c31fc.png",
+    "static/media/Email-icon.png": "/Portfolio/static/media/Email-icon.4c95662abad0395a97b7.png",
+    "static/media/Phone-icon.png": "/Portfolio/static/media/Phone-icon.b76498e5c124d5213615.png",
+    "index.html": "/Portfolio/index.html",
+    "main.c2038ddc.css.map": "/Portfolio/static/css/main.c2038ddc.css.map",
+    "main.fe2106a3.js.map": "/Portfolio/static/js/main.fe2106a3.js.map",
+    "787.04b02cee.chunk.js.map": "/Portfolio/static/js/787.04b02cee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2038ddc.css",
+    "static/js/main.fe2106a3.js"
+  ]
+}
