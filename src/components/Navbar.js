@@ -5,9 +5,9 @@ import "../index.css";
 const Navbar = () => {
   let navLinks = [
     { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/" },
-    { name: "PORTFOLIO", link: "/" },
-    { name: "SERVICE", link: "/" },
+    { name: "ABOUT", link: "#AboutSection" },
+    { name: "PORTFOLIO", link: "#ProjectSection" },
+    { name: "CONTACT", link: "#ContactSection" },
   ];
 
   let [menuOpen, setMenuOpen] = useState(false);
@@ -78,7 +78,10 @@ const Navbar = () => {
               </li>
             );
           })}
-          <button className="text-gray-800 text-lg rounded-full md:ml-0 border-gray-500 font-normal border-2  px-4 py-1 lg:ml-10 whitespace-nowrap flex items-center gap-2 mx-auto hover:bg-gray-800 hover:text-white hover:border-gray-800 duration-500">
+          <a
+            href="#ContactSection"
+            className="text-gray-800 text-lg rounded-full md:ml-0 border-gray-500 font-normal border-2  px-4 py-1 lg:ml-10 whitespace-nowrap flex items-center gap-2 mx-auto hover:bg-gray-800 hover:text-white hover:border-gray-800 duration-500"
+          >
             Let's talk
             <span>
               <svg
@@ -96,7 +99,7 @@ const Navbar = () => {
                 />
               </svg>
             </span>
-          </button>
+          </a>
         </ul>
       </div>
     </div>

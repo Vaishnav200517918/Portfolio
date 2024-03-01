@@ -27,7 +27,7 @@ const Sliderinfinite = (props) => {
     <div
       className={` md:py-2 py-1 md:my-40 my-28 ${props.degree} overflow-hidden whitespace-nowrap bg-black -z-10`}
     >
-      <div class="animate-slideRight bg-black text-white inline-block text-xs md:text-lg  ">
+      <div className="animate-slideRight bg-black text-white inline-block text-xs md:text-lg  ">
         {slideItemList.map((item) => {
           return <div class="inline-block mx-4 ">{item}</div>;
         })}
