@@ -4,6 +4,8 @@ import WardrobeManager from "../assets/WardrobeManager.jpg";
 import Portfolio from "../assets/Portfolio.jpg";
 import WatchShop from "../assets/WatchDemo.jpg";
 import Dmag from "../assets/DMAG.jpg";
+import Chalet from "../assets/Chalet.jpg";
+
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -52,6 +54,14 @@ const Project = () => {
             modules={[Grid, Pagination]}
             className="mySwiper"
           >
+            <SwiperSlide>
+              <ProjectItem
+                source={Chalet}
+                link="https://chaletipi.com"
+                title="Chalet"
+                description="This is a website of a Real Estate Agency in Dubai"
+              />
+            </SwiperSlide>
             <SwiperSlide>
               <ProjectItem
                 source={Dmag}
